@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cassino</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com"> <!--  &gt;  mudar para -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside id="logo" class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1><a href="#intro">Neymar</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#top3">top 3</a></li>
+          <li><a href="#grid-one">grid-one</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#pricing">pricing</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <!-- Parte 3 -->
+  <div id="intro" class="menu-spacing"></div>
+  <section class="main-bg4">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Neymar Jr</h2>
+        <p></p>
+      </div>
+      <div class="intro-img">
+       
+      </div>
+    </div>
+  </section>
+  <!-- parte 3 2.0 -->
+  <section id="top3" class="main-bg3">
+    <div class="main-content top3-content">
+      <h2></h2>
+      <p>Jogou no Futbol Club Barcelona, mais conhecido como Barcelona e coloquialmente como Barça, é um clube de futebol profissional sediado em Barcelona, na Catalunha, uma comunidade autônoma da Espanha.
+        Compete na La Liga, a principal competição do sistema de ligas espanhol</p>
+      <p>Jogou no clube Paris Saint-Germain Football Club, também referido como Paris Saint-Germain, Paris SG, Paris ou simplesmente pela sigla PSG, é um clube de futebol profissional francês com sede em Paris.
+         O clube compete na Ligue 1, a principal divisão do sistema de ligas da França.</p>
+      <p>Atualmente joga no clube O Al-Hilal Saudi Football Club, ou simplesmente Al-Hilal, é um clube multi-esportivo de Riade, na Arábia Saudita. O clube compete na Saudi Pro League.
+         Eles são o clube mais condecorado da Ásia, ganhando 68 troféus oficiais. </p>
+    </div>
+  </section>
+  <!-- parte 4 -->
+  <section id="grid-one" class="grid-one main-bg ">
+    <div class="main-content grid-one-content">
+      <!-- div estava errada correção -->
+      <h2 class="grid-main-heading">CARREIRA</h2>
+      <div class="banner " >
+        <img height="50" src="assets/img/neymar_jr____fc_barcelona_wallpaper_hd_by_selvedinfcb_d876eoq-pre.jpg" id="bannerImage" alt="banner 1">
+    </div>
+      <div class="grid">
+        <article>
+          <h3>Barcelona</h3>
+          <p>Jogou no Futbol Club Barcelona, mais conhecido como Barcelona e coloquialmente como Barça, é um clube de futebol profissional sediado em Barcelona, na Catalunha, uma comunidade autônoma da Espanha.
+            Compete na La Liga, a principal competição do sistema de ligas espanhol</p>
+        </article>
+        <article>
+          <h3>PSG</h3>
+          <p>Jogou no clube Paris Saint-Germain Football Club, também referido como Paris Saint-Germain, Paris SG, Paris ou simplesmente pela sigla PSG, é um clube de futebol profissional francês com sede em Paris.
+            O clube compete na Ligue 1, a principal divisão do sistema de ligas da França.</p>
+        </article>
+        <article>
+          <h3>Al-Hilal</h3>
+          <p>Atualmente joga no clube O Al-Hilal Saudi Football Club, ou simplesmente Al-Hilal, é um clube multi-esportivo de Riade, na Arábia Saudita. O clube compete na Saudi Pro League.
+            Eles são o clube mais condecorado da Ásia, ganhando 68 troféus oficiais.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- part 4.2 -->
+  <!-- source.unsplash.com/random/360x360 -->
+  <section id="gallery" class="main-bg6">
+    <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">Uma breve descrição.</p>
+        <div class="grid">
+            <div class="gallery-img">
+                <img height="200" src="assets/img/neymarimg1.jpg" alt="random" onclick="openModal(this.src)">
+            </div>
+            <div class="gallery-img">
+                <img height="200" src="assets/img/ney.jpeg" alt="random" onclick="openModal(this.src)">
+            </div>
+            <div class="gallery-img">
+                <img height="200" src="assets/img/neymar_jr____fc_barcelona_wallpaper_hd_by_selvedinfcb_d876eoq-pre.jpg" alt="random" onclick="openModal(this.src)">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+  <!-- parte da tabela -->
+  <section id="pricing" class="main-bg7">
+    <div class="main-content top3-content">
+      <h2>Pricing</h2>
+      <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+        surprises at the machine’s performance. This post details some background information on the experience of
+        porting Firefox to run natively on these CPUs.</p>
+      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+        know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+      <div class="responsive-table">
+        <!-- tabela responsiva pra nos poder rolar nela -->
+        <!-- elements para configurar as tags -->
+        <table>
+          <caption>Pricing table</caption>
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>content 1</td>
+              <td>content 2</td>
+              <td>content 3</td>
+              <td>content 4</td>
+              <td>content 5</td>
+            </tr>
+            <tr>
+              <td>content 1</td>
+              <td>content 2</td>
+              <td>content 3</td>
+              <td>content 4</td>
+              <td>content 5</td>
+            </tr>
+            <tr>
+              <td>content 1</td>
+              <td>content 2</td>
+              <td>content 3</td>
+              <td>content 4</td>
+              <td>content 5</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parte conteact! -->
+
+  <div id="contact" class="menu-spacing"></div>
+  <section class="intro pl-bg ">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>nos envie uma menssagem</h2>
+        
+      </div>
+      <div class="intro-img">
+        <!-- <img src="assets/img/undraw_static_assets_rpm6.svg" alt="log de html js e css"> -->
+      </div>
+      <div class="contact-form">
+        <form id="form">
+        <fieldset class="form-grid">
+          <legend>Contact me</legend>
+
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="name" id="first-name" placeholder="Your first name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+        </fieldset>
+    </form>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("ablSZMjRSlgUKOCT3");
+            })();
+        </script>
+        <script>
+            document.getElementById('form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                emailjs.sendForm('service_hjr9vbv', 'template_fv75mcw', this)
+                    .then(function () {
+                        alert('Email enviado com sucesso!');
+                    }, function (error) {
+                        alert('Erro ao enviar o email: ' + JSON.stringify(error));
+                    });
+            });
+        </script>
+    </div>
+  </section>
+  <script src="assets/js/script.js"></script>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a href=""><span class="span"> &copy;</span> 2024 Exemplo de Site. Todos os
+        direitos reservados.</a></p>
+  </footer>
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
